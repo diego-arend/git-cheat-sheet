@@ -1,6 +1,5 @@
 ### **Git Cheat Sheet**  
-*(Baseado no histórico desta conversa)*  
-
+ 
 ---
 
 ### **📦 Configuração Inicial**  
