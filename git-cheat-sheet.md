@@ -84,10 +84,11 @@
 
 ### ** Git Submodules **  
 | Comando | Descrição |  
-|---------|-----------|  
+|---------|-----------| 
+| `git submodule add <URL_DO_REPOSITÓRIO> <CAMINHO_DESTINO>` | adiciona um submodulo ao projeto. | 
 | `git submodule update --remote --merge` | **Sobrescreve** atualizar as referências dos submodules. |  
 | `git submodule update --init --recursive` | inicializar os repositorios. |  
-| `git submodule add <URL_DO_REPOSITÓRIO> <CAMINHO_DESTINO>` | adiciona um submodulo ao projeto. |
+| `git submodule deinit --all` | Este comando irá **desinicializar** todos os submodules, **removendo** os conteúdos dos diretórios dos submodules (mas mantendo os diretórios vazios). |
 
 ---
 
